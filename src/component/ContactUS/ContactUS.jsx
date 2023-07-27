@@ -1,6 +1,9 @@
 import { BiSolidPhoneCall } from 'react-icons/bi';
 import { MdEmail } from 'react-icons/md';
 import { MdLocationOn } from 'react-icons/md';
+import { BiLogoTwitter } from 'react-icons/bi';
+import { AiOutlineInstagram } from 'react-icons/ai';
+import { BsFacebook } from 'react-icons/bs';
 const ContactUS = () => {
     return (
         <div>
@@ -31,28 +34,35 @@ const ContactUS = () => {
                     </form>
                 </div>
 
-                <div className="flex items-center text-white ">
-                    <div className='space-y-4'>
-                        <div className='bg-[#081C47] w-[300px] space-y-5 p-8 rounded-bl-xl rounded-tl-xl'>
-                            <h1>Contact Information</h1>
-                            <p className='flex items-center gap-2 text-sm'>
-                                <BiSolidPhoneCall></BiSolidPhoneCall>
-                                +1012 3456 789
-                            </p>
-                            <p className='flex items-center gap-2 text-sm'>
-                                <MdEmail></MdEmail>
-                                demo@gmail.com
-                            </p>
-                            <p className='flex items-center gap-2 text-sm'>
-                                <MdLocationOn></MdLocationOn>
-                                132 Dartmouth Street Boston, Massachusetts 02156 United States
-                            </p>
+                
+                    <div className="flex  items-center bg-[#0064E1] relative w-[150px] text-white ">
+                        <div className='space-y-4 absolute right-0'>
+                            <div className='bg-[#081C47] w-[300px] space-y-5 p-8 rounded-bl-xl rounded-tl-xl'>
+                                <h1>Contact Information</h1>
+                                <p className='flex items-center gap-2 text-sm'>
+                                    <BiSolidPhoneCall></BiSolidPhoneCall>
+                                    +1012 3456 789
+                                </p>
+                                <p className='flex items-center gap-2 text-sm'>
+                                    <MdEmail></MdEmail>
+                                    demo@gmail.com
+                                </p>
+                                <p className='flex items-center gap-2 text-sm'>
+                                    <MdLocationOn></MdLocationOn>
+                                    132 Dartmouth Street Boston, Massachusetts 02156 United States
+                                </p>
+                            </div>
+                        </div>
+                        <div className='absolute bottom-5 '>
+                            <div className='flex gap-5 ms-8'>
+                                <BiLogoTwitter className=''></BiLogoTwitter>
+                                <AiOutlineInstagram></AiOutlineInstagram>
+                                <BsFacebook></BsFacebook>
+                            </div>
                         </div>
                     </div>
-
                 </div>
 
-            </div>
 
 
         </div>
