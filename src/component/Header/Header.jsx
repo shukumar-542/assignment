@@ -1,17 +1,15 @@
 import img from '../../assets/img-student-3 2.png'
 import { BsStopwatch } from 'react-icons/bs';
 import { TbPointFilled } from 'react-icons/tb';
-import './Header.css'
 import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input'
 import { useState } from 'react';
-// import img1 from '../../assets/vector.png'
-// import img2 from '../../assets/Vector1.png'
+
 const Header = () => {
     const [value, setValue] = useState()
     return (
-        <div className="grid grid-cols-2 gap-12 items-center hero-image">
-            <div className='ms-28 mt-10 '>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center hero-image my-container">
+            <div className='mx-4 md:ms-28 mt-10 '>
                 <h1 className="text-3xl text-[#051C45] font-bold text-center ">Start Your IELTS Preparation And Get Desire Bands</h1>
                 <div className='mt-3 text-center '>
                     <p className='text-xs'><TbPointFilled className='inline-block ms-1'></TbPointFilled>Get access to IELTS Centralised Library </p>
@@ -47,12 +45,12 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className='ms-40  '>
+            <div className='ms-20 mt-36 md:ms-40  '>
 
-                <div className='bg-[#051C45] z-10  h-[360px] w-[350px] relative  rounded-full '>
+                <div className='bg-[#051C45] z-10 h-[200px] w-[200px] md:h-[360px] md:w-[350px] relative  rounded-full '>
                     <img src={img} className='h-[370px] w-[350px] absolute rounded-b-full bottom-0 ' alt="" />
-                    <div className='bg-[#99A4B3] w-1/2 text-center absolute px-4 py-3 font-semibold -left-16 rounded-2xl shadow-md opacity-80  top-12'>
-                        <p className='bg-[#0400CA] h-3 w-3 rounded-full absolute -top-1'></p>
+                    <div className='bg-[#99A4B3] w-1/2 text-center absolute px-4 py-3 font-semibold -left-16 rounded-2xl shadow-md opacity-80 top-0 md:top-12'>
+                        <p className='bg-[#0400CA]  h-3 w-3 rounded-full absolute -top-1'></p>
                         <p className='text-sm'>Student Visa</p>
                     </div>
                     <div className='bg-[#99A4B3] w-1/2 text-center absolute px-4 py-3 font-semibold -left-16 rounded-2xl shadow-md opacity-80  bottom-14'>

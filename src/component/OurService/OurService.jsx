@@ -8,19 +8,19 @@ import img7 from '../../assets/real-estate (1) 1.png'
 import './OurService.css'
 const OurService = () => {
     return (
-        <div className='bg-gradient-to-r from-[#081C47] to-[#520267] my-5 grid grid-cols-2 px-20 relative h-[500px]  rounded-2xl'>
-            <div>
-                <div className=' absolute bottom-0 w-[450px]'>
+        <div className='my-container bg-gradient-to-r from-[#081C47] to-[#520267] my-5 grid grid-cols-1 md:grid-cols-2 px-20 relative md:h-[500px]  rounded-2xl'>
+            <div className='ms-20'>
+                <div className='absolute  bottom-0 w-[450px]'>
                     <img src={img2} className='h-[450px]' alt="" />
                     <img src={img1} className='h-[280px] w-[300px] absolute bottom-0' alt="" />
                     <img src={img3} className='absolute top-10 h-[80px] w-[100px] left-14' alt="" />
                 </div>
             </div>
 
-            <div className='mt-10'>
+            <div className='pb-10 '>
                 <h1 className='text-4xl font-bold text-white text-center mb-10'>Our Service</h1>
                 {/* top two card */}
-                <div className='flex justify-center  gap-5'>
+                <div className='grid grid-cols-1 md:grid-cols-2 pb-10  gap-5'>
                     <div className='border relative rounded-2xl p-4 service-card'>
                         <img src={img4} className='absolute -top-6 h-12 bg-white rounded-xl p-2' alt="" />
                         <div className='text-white mt-4'>
@@ -43,9 +43,9 @@ const OurService = () => {
 
                         </div>
                     </div>
-                </div>
+               
                 {/* bottom two card */}
-                <div className='flex justify-center  gap-5'>
+                
                     <div className='my-10 border relative rounded-2xl p-4 service-card'>
                         <img src={img6} className='absolute -top-6 h-12 bg-white rounded-xl p-2' alt="" />
                         <div className='text-white mt-4'>

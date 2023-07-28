@@ -11,7 +11,6 @@ import { Pagination, Navigation,Autoplay } from 'swiper/modules';
 const Slider = () => {
     return (
         <div className="mx-20">
-            {/* <ReviewSection></ReviewSection> */}
             <Swiper
                 pagination={{
                     type: 'fraction',

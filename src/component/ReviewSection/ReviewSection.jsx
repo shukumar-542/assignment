@@ -1,4 +1,3 @@
-import './ReviewSection.css'
 import img from '../../assets/Rectangle5422.png'
 import { BiSolidQuoteRight } from 'react-icons/bi';
 import img1 from '../../assets/Image.png'
@@ -36,7 +35,7 @@ const ReviewSection = () => {
       </div>
       <div className='absolute h-[220px] right-0 top-24'>
       <img src={img1} className='h-[220px] w-[200px] relative z-10' alt="" />
-      <div className='bg-[#031D44] h-[200px] absolute top-0 rounded-md -rotate-12 w-[200px]'>
+      <div className='bg-[#031D44] h-[220px] absolute top-0 rounded-md -rotate-12 w-[150px]'>
       </div>
     </div> 
 

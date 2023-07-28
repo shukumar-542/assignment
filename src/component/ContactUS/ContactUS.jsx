@@ -7,13 +7,13 @@ import { BsFacebook } from 'react-icons/bs';
 const ContactUS = () => {
     return (
         <div>
-            <div className="text-center my-10">
+            <div className="text-center my-10 my-container">
                 <h1 className="text-3xl font-bold  text-[#081C47]">Get In Touch With Us</h1>
                 <hr className="w-48 h-1 mx-auto mb-4 bg-gray-100 border-0 rounded  dark:bg-gray-700" />
                 <p className="text-gray-500">Elevate Your Institute Management and Student Success - Contact Us Now!</p>
             </div>
 
-            <div className="flex  gap-10 shadow-2xl mx-[100px] ps-10  my-10 ">
+            <div className="md:flex   gap-10 shadow-2xl md:mx-[100px] ps-10  my-10 ">
                 <div className="flex-1 pt-10 ps-10">
                     <h1 className="text-4xl font-semibold">Contact Us</h1>
                     <p className='w-1/2 mt-4 text-xl'>Feel Free to contact us any time. We will get back to you as soon as we can!</p>
