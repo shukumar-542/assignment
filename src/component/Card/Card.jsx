@@ -7,7 +7,7 @@ import SingleCard from '../SingleCard/SingleCard';
 // eslint-disable-next-line react/prop-types
 const Card = () => {
     return (
-      <div className='my-container space-y-2 md:flex justify-between items-center text-white  md:mx-28 my-10'>
+      <div className='my-container space-y-2 md:flex justify-between items-center text-white  md:mx-auto my-10'>
         <SingleCard img={img1} heading={'Free IELTS Modules'}  para={'20,000+ Listed Properties across 5 countries.'}></SingleCard>
         <SingleCard img={img2} heading={'Offline Classes'}  para={'20,000+ Listed Properties across 5 countries.'}></SingleCard>
         <SingleCard img={img3} heading={'Live / Online Classes'}  para={'20,000+ Listed Properties across 5 countries.'}></SingleCard>     
