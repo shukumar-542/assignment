@@ -9,27 +9,27 @@ const ContactUS = () => {
         <div>
             <div className="text-center my-10">
                 <h1 className="text-3xl font-bold  text-[#081C47]">Get In Touch With Us</h1>
-
+                <hr className="w-48 h-1 mx-auto mb-4 bg-gray-100 border-0 rounded  dark:bg-gray-700" />
                 <p className="text-gray-500">Elevate Your Institute Management and Student Success - Contact Us Now!</p>
             </div>
 
-            <div className="flex  gap-10 shadow-2xl mx-[100px]  my-10 ">
+            <div className="flex  gap-10 shadow-2xl mx-[100px] ps-10  my-10 ">
                 <div className="flex-1 pt-10 ps-10">
                     <h1 className="text-4xl font-semibold">Contact Us</h1>
-                    <p>Feel Free to contact us any time. We will get back to you as soon as we can!</p>
+                    <p className='w-1/2 mt-4 text-xl'>Feel Free to contact us any time. We will get back to you as soon as we can!</p>
 
-                    <form className='my-5 space-y-2 w-full '>
-                        <div className='w-32'>
+                    <form className='my-5 space-y-2 w-full pb-10'>
+                        <div className='w-full'>
                             <label htmlFor="Name" className='block'>Name</label>
-                            <input type="text" className='border-b hover:border-none' placeholder='Doe' />
+                            <input type="text" className='border-b focus:outline-0 w-3/12 mt-2' placeholder='Doe' />
                         </div>
                         <div>
                             <label htmlFor="Name" className='block'>Email</label>
-                            <input type="Email" className='border-b' placeholder='Email' />
+                            <input type="Email" className='border-b focus:outline-0 w-3/12 mt-2' placeholder='Email' />
                         </div>
                         <div>
                             <label htmlFor="Name" className='block'>Message</label>
-                            <textarea name="Message" className='border-b' id="" cols="25" rows="3" placeholder='write your message'></textarea>
+                            <textarea name="Message" className='border-b focus:outline-0 w-3/12 mt-2' id="" cols="25" rows="3" placeholder='write your message'></textarea>
                         </div>
                     </form>
                 </div>

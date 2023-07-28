@@ -5,7 +5,7 @@ import ContactUS from './component/ContactUS/ContactUS'
 import Header from './component/Header/Header'
 import Navbar from './component/Navbar/Navbar'
 import OurService from './component/OurService/OurService'
-import ReviewSection from './component/ReviewSection/ReviewSection'
+import Slider from './component/Silder/Slider'
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
       <Header></Header>
       <Card></Card>
       <OurService></OurService>
-      <ReviewSection></ReviewSection>
+      <Slider></Slider>
       <ContactUS></ContactUS>
     </>
   )
